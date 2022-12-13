@@ -1,0 +1,31 @@
+body{background-color: rgb(144, 184, 184);
+margin: 1%;}
+
+h1{
+    color: hsl(241, 49%, 44%);
+}
+.a{
+    font-size:70px;
+    text-transform:uppercase;
+    color: royalblue;
+}
+.b{
+    color: cornflowerblue;
+    font-size: 50%;
+}
+.shadow{
+    text-shadow: 6px 7px 10px;
+}
+.header{
+    background-color: lightpink;
+    color: blueviolet;
+    font-size: 25px;
+    font-weight: bold;
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 100px 10px 100px 10px;
+    margin: -100px 0px 0px 0px;
+    background-image:url(https://png.pngtree.com/thumb_back/fh260/background/20200714/pngtree-modern-double-color-futuristic-neon-background-image_351866.jpg)
+    ;
+    background-repeat: no-repeat;
+}

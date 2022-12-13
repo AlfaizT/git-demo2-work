@@ -1,0 +1,15 @@
+@font-face {
+    font-family: baap;
+    src: url(../font/Nabla-Regular-VariableFont_EDPT\,EHLT.ttf);
+}
+@font-face {
+    font-family: a;
+    src: url(../image/RubikMoonrocks-Regular.ttf);
+}
+body{
+    font-family: baap,display;
+    font-size: x-large;
+}
+p{
+    font-family:a,handwriting;
+}

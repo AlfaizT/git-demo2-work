@@ -1,0 +1,70 @@
+
+body{
+    padding: 0%;
+    margin: 0%;
+}
+
+
+
+
+
+.left_side{
+    float: left;
+    width: 70%;
+    height: 100vh;
+    background-color: aqua;
+    background-image: url(../image/laptop\ image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.right_side{
+    float: right;
+    width: 30%;
+    height: 100vh;
+    background-color: rgb(225, 238, 234);
+}
+.para{
+    font-size: 60px;
+    padding-left: 40px;
+    padding-top: 250px;
+    color: rgb(169, 230, 230);
+}
+
+/* .para{
+    position: absolute;
+    text-align: center;
+    font-size: 50px;
+} */
+h1{
+    padding-left: 20px;
+    padding-top: 30px;
+}
+input{
+    width: 85%;
+    margin: 12px;
+    padding: 14px;
+    display: inline-block;
+    /* border: none    ; */
+    /* border-bottom: 1px; */
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+
+}
+button{
+    padding:12px;
+    margin: 1px;
+    border-radius: 10px;
+    width: 70%;
+    height: 50px;
+    cursor: pointer;
+
+}
+.a{
+    background-color: black;
+    color: aliceblue;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 17px;
+}
+
+

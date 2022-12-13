@@ -1,0 +1,10 @@
+@font-face {
+    font-family: A;
+    src: url(../FONT/Oswald-VariableFont_wght.ttf);
+}
+div{
+    font-family: A,handwriting;
+}
+body{
+    background-color: rgb(226, 226, 238);
+}

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OLORS</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <style>
+        body {
+            background-color: rgb(155, 245, 245);
+        }
+
+        .left_side {
+            float: left;
+            width: 25%;
+            height: 80vh;
+            background-image: linear-gradient(rgb(86, 183, 228), rgb(0, 81, 255));
+            margin-left: 100px;
+            margin-top: 80px;
+            border: 2px solid rgb(123, 123, 231);
+            border-radius: 16px;
+            border-style: none;
+            transform: rotateZ(333deg);
+            z-index: 2;
+        }
+
+        .right_side {
+            float: right;
+            width: 25%;
+            height: 80vh;
+            background-color: aliceblue;
+            text-align: center;
+            border: 1px solid aliceblue;
+            border-radius: 16px;
+            margin-right: 100px;
+            margin-top: 80px;
+            border-style: none;
+            transform: rotateZ(19deg);
+            
+  
+
+        }
+
+        input {
+            width: 350px;
+            height: 50px;
+            border: 3px solid rgb(156, 176, 243);
+            border-radius: 10px;
+        }
+
+        button {
+            width: 350px;
+            height: 50px;
+            border: 5px solid rgb(123, 123, 231);
+            border-radius: 20px;
+            background-color: rgb(123, 123, 231);
+            cursor: pointer;
+        }
+
+        .left_contain {
+            padding-top: 100px;
+        }
+
+        .register {
+            padding-top: 100px;
+        }
+
+        .shape {
+            margin-top: 350px;
+            margin-left: 170px;
+            width: 133px;
+            height: 50px;
+            border-radius: 10px 40px 5px 10px;
+            background-color: rgb(175, 234, 236);
+            -webkit-box-reflect: below 5px linear-gradient(to bottom, rgba(128, 203, 226, 0), rgba(60, 185, 223, 0.4));
+        }
+
+        .icon {
+            margin-top: 0px;
+            margin-left: 100px;
+            width: 50px;
+            height: 20px;
+            border-radius: 15px 40px 5px 15px;
+            background-color: rgb(175, 234, 236);
+            -webkit-box-reflect: below 5px linear-gradient(to bottom, rgba(101, 178, 214, 0), rgba(69, 188, 224, 0.4));
+        }
+
+        .heading {
+            padding-left: 70px;
+        }
+    </style>
+</head>
+
+<body>
+    <div style="position:relative;">
+        <div class="left_side" style="position:absolute; left:240px;">
+            <div class="shape">
+
+            </div>
+        </div>
+    </div>
+
+
+    <div style="position:relative;">
+        <div class="right_side" style="position:absolute; right:250px;">
+
+            <div class="left_contain" style="position: relative;">
+                <!-- <img src="../asset/image/new logo.jpg" alt="" style="position:absolute; left:98px">   -->
+                <div class="icon">
+                    <h1 class="heading"><b>Olors</b></h1>
+                </div><br><br>
+                <h2><i>Sign in to continue</i></h2>
+                <div style="position: relative;">
+                    <input type="email" placeholder="Email">
+                    <i class="fa-solid fa-envelope fa-1x" style="position:absolute; right:60px;top:17px"></i>
+                </div><br>
+                <div style="position: relative;">
+                    <input type="password" placeholder="password">
+                    <i class="fa-regular fa-eye-slash " style="position:absolute; right:60px;top:18px;"></i>
+                </div><br><br>
+                <button style="font-size:25px;color:aliceblue"><b>Sign in</b> </button><br><br>
+
+                <h3 style="cursor:pointer;color: rgb(81, 81, 204);">Forgot password ?</h3>
+                <div class="register">
+                    <p>Don't have any account?<a href="#">Register</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>input type</title>
+    <link rel="stylesheet" href="../asset/STYLE/font.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <style>
+        
+        h1{
+            background-color: aqua;
+        }
+        .box_model{
+            border: 5px dotted rgb(69, 26, 168);
+            padding: 0px 5px 0px 5px;
+            margin: 10px;
+            width: 23%;
+            background-color: aquamarine;
+            text-align: center;
+        }
+        .form_center{
+            padding-left: 500px;
+            background-color: beige;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: larger;
+            font-weight: bold;
+            font-size-adjust: inherit;
+            background-image: url(../asset/image/images.jpg);
+        }
+        .heading{
+            background-image:url(../asset/image/images\ \(2\).jpg);
+            background-size: cover;
+            text-align:left;
+        }
+        /* .personal_form{
+            height: 20px;
+        } */
+
+    </style>
+</head>
+<body>
+    <h1 class="animate__animated animate__fadeInLeftBig"><center>THIS IS A PROGRAME AND CODING OF INPUT TYPE</center></h1>
+    <CENTER><h1 class="box_model">-:APPLICATION FORM:- </h1></CENTER>
+        <form class="personal_form">
+        <label style="font-size: 20px;"><b>PERSONAL INFORMATION:-</b></label>
+        <br><br>
+        <div>
+        <input type="text" placeholder="first name ">
+        <input type="text" placeholder="middle name">
+        <input type="text" placeholder="last name"><br>
+        <input type="text" placeholder="address">
+        <input type="tel" placeholder="Mob.no">
+        <input type="number"><br>
+        <input type="email" placeholder="E-mail">
+       
+    </div>
+          </form>
+    <hr>
+    <label style="font-size: 20px;"><b>ADD YOUR DATA:-</b></label>
+    <br><br>
+    <input type="file">
+    <input type="image">
+    <input type="text" placeholder="write your description">
+    <hr>
+    <div class="heading">
+    <h2>Click here to select:-</h2>
+    <h3>MBA <input type="radio" name="course" value="MBA"></h3>
+    <h3>MCA  <input type="radio" name="course" value="MCA"></h3>
+    
+    <h3>M.SC  <input type="radio" name="course" value="M.SC"></h3>
+    
+</div>
+    <hr>
+    <form class="form_center">
+        <lable for="username">USERNAME:-</lable>
+        <input type="text" id="username" placeholder="username"><br><br>
+        <lable for="password">PASSWORD:-</lable>
+       <input type="password">
+    </form>
+    <hr>
+    <h3>CHOOSE YOUR FAVOURITE COMPANY</h3>
+    <form>
+        <input type="radio" id="TCS" name="fav company " value="TCS">
+        <label for="TCS">TCS</label>
+        <input type="radio" id="infosys" name="fav company " value="infosys">
+        <label for="TCS">infoysy</label>
+        <input type="radio" id="wipro" name="fav company " value="wipro">
+        <label for="TCS">wipro</label>
+    </form><hr>
+    
+   
+        <br><br>   
+      <lable for="birthday">birtday</lable>
+       
+      <input type="date" id="birthday" name="birthday">
+      <br>
+      <label for="profile completed">PROFILE RANGE</label>
+      <input type="range" id="profile completed" name="PROFILE RANGE">
+      
+      <hr>
+      <br><br>
+     <center><i class="fa-regular fa-face-grin"></i></center>
+    </center><center><input type="reset"></center>
+      <center><input type="submit">
+        <input type="button" onclick="alert('check your form correcty')" value="click me">
+
+        <img  id="image" src="../asset/image/images (1).jpg" width="100px" height="50px">
+        <button onclick="document.getElementById('image').src='../asset/image/images (2).jpg'">on</button>
+        <button onclick="document.getElementById('image').src='../asset/image/images (1).jpg'">off</button>
+     
+</body>
+</html>

@@ -1,0 +1,71 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+
+
+.left{
+    float: left;
+    width: 60%;
+    height: 100vh;
+    background-color: rgb(249, 253, 252);
+
+}
+.right{
+    float: right;
+    width: 40%;
+    height: 100vh;
+    background-color: rgb(249, 253, 252);
+}
+li{
+    display: inline;
+    padding: 15px;
+    font-size:x-large;
+}
+.csgo{
+    padding-left: 100px;
+    padding-top: 60px;
+    font-size: 35px;
+}
+button{
+            width: 350px;
+            height: 50px;
+            border: 5px solid rgb(75, 75, 80);
+            border-style: none;
+            color: white;
+            padding-left: 20px;
+            margin-left: 80px;
+            margin-right: -70px;
+            border-radius: 20px;
+            background-color: rgb(51, 51, 58);
+            cursor: pointer;
+}
+.trus{
+    padding-top: 100px;
+    padding-left: 90px;
+}  
+.img{
+    padding-left: 90px;
+    border-radius: 50px;
+}     
+.search{
+    border-radius: 20px;
+    height: 40px;
+}
+.BUTTON{
+    border-radius: 20PX;
+    width: 200px;
+    padding-left: 20PX;
+    margin-left: 50PX;
+    display: inline;
+}
+.live{
+    width: 60px;
+    height: 30px;
+    background-color: rgb(255, 69, 1);
+    padding-right: 20px;
+    margin-right: 8px;
+}
